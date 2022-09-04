@@ -43,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A613C80428C53F75001356A0 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				A6DAA9B728C523C00089DBB3 /* RegViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		A613C80528C53F8D001356A0 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				A6DAA9B928C527CF0089DBB3 /* AuthViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
 		A6DAA99728C523590089DBB3 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +79,11 @@
 		A6DAA9A228C523590089DBB3 /* Chatik */ = {
 			isa = PBXGroup;
 			children = (
+				A6DAA9A728C523590089DBB3 /* AuthorizationViewController.swift */,
 				A6DAA9A328C523590089DBB3 /* AppDelegate.swift */,
 				A6DAA9A528C523590089DBB3 /* SceneDelegate.swift */,
-				A6DAA9A728C523590089DBB3 /* AuthorizationViewController.swift */,
-				A6DAA9B728C523C00089DBB3 /* RegViewController.swift */,
-				A6DAA9B928C527CF0089DBB3 /* AuthViewController.swift */,
+				A613C80428C53F75001356A0 /* Registration */,
+				A613C80528C53F8D001356A0 /* Authorization */,
 				A6DAA9A928C523590089DBB3 /* Main.storyboard */,
 				A6DAA9AC28C5235B0089DBB3 /* Assets.xcassets */,
 				A6DAA9AE28C5235B0089DBB3 /* LaunchScreen.storyboard */,

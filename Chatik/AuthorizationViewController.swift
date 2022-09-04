@@ -52,8 +52,6 @@ class AuthorizationViewController: UIViewController {
         super.viewDidLoad()
         setUp()
         
-        
-        
     }
     
     
