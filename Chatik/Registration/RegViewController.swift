@@ -25,7 +25,7 @@ class RegViewController: UIViewController {
         backgroundForFields.layer.cornerRadius = 23
         return backgroundForFields
     }()
-    
+
     private lazy var passwordBackgroundForFields: UIView = {
         let backgroundForFields = UIView()
         backgroundForFields.backgroundColor = .white
@@ -34,7 +34,7 @@ class RegViewController: UIViewController {
         backgroundForFields.layer.cornerRadius = 23
         return backgroundForFields
     }()
-    
+
     private lazy var secondPasswordBackgroundForFields: UIView = {
         let backgroundForFields = UIView()
         backgroundForFields.backgroundColor = .white
@@ -46,16 +46,16 @@ class RegViewController: UIViewController {
     
     private lazy var numberField: UITextField = {
         let numberField = UITextField()
-        numberField.attributedPlaceholder = NSAttributedString(string: "Введите E-Mail", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        numberField.attributedPlaceholder = NSAttributedString(string: "Введите E-Mail", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         numberField.textAlignment = .center
         numberField.font = .systemFont(ofSize: 16, weight: .regular)
-        numberField.textColor = .red
+        numberField.textColor = .black
         return numberField
     }()
     
     private lazy var passwordField: UITextField = {
         let passwordField = UITextField()
-        passwordField.attributedPlaceholder = NSAttributedString(string: "Введите пароль", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        passwordField.attributedPlaceholder = NSAttributedString(string: "Введите пароль", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         passwordField.textAlignment = .center
         passwordField.font = .systemFont(ofSize: 16, weight: .regular)
         passwordField.textColor = .black
@@ -65,7 +65,7 @@ class RegViewController: UIViewController {
     
     private lazy var secondPasswordField: UITextField = {
         let passwordField = UITextField()
-        passwordField.attributedPlaceholder = NSAttributedString(string: "Повторите пароль", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        passwordField.attributedPlaceholder = NSAttributedString(string: "Повторите пароль", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         passwordField.textAlignment = .center
         passwordField.font = .systemFont(ofSize: 16, weight: .regular)
         passwordField.textColor = .black
@@ -134,7 +134,7 @@ class RegViewController: UIViewController {
     
     private func setUp() {
         
-        view.addSubviews(secondPasswordBackgroundForFields, registrLabel,numberField, passwordField, loginBackgroundForFields, passwordBackgroundForFields, secondPasswordField, alsoAccount, alsoLabel, mainButton, mainLabel)
+        view.addSubviews(secondPasswordBackgroundForFields, loginBackgroundForFields, passwordBackgroundForFields, registrLabel,numberField, passwordField, secondPasswordField, alsoAccount, alsoLabel, mainButton, mainLabel)
         
         loginBackgroundForFields.translatesAutoresizingMaskIntoConstraints = false
         passwordBackgroundForFields.translatesAutoresizingMaskIntoConstraints = false
