@@ -14,6 +14,7 @@ class ChatCollectionViewCell: UICollectionViewCell {
         label.font = UIFont.systemFont(ofSize: 17)
         label.numberOfLines = 2
         label.text = "Имя Фамилия"
+        label.textColor = .white
         return label
     }()
     
@@ -36,8 +37,8 @@ class ChatCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: .zero)
         
-        contentView.backgroundColor = UIColor(red: 167 / 255, green: 191 / 255, blue: 208 / 255, alpha: 100)
-        //contentView.layer.cornerRadius = 8
+        contentView.backgroundColor = UIColor(red: 16 / 255, green: 35 / 255, blue: 48 / 255, alpha: 100)
+        contentView.layer.cornerRadius = 10
         
         setUp()
     }

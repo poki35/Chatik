@@ -75,7 +75,7 @@ class RegViewController: UIViewController {
     
     private lazy var alsoAccount: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor.mainColor
+        button.backgroundColor = UIColor(red: 167 / 255, green: 191 / 255, blue: 208 / 255, alpha: 0)
         button.layer.cornerRadius = 25
         button.addTarget(self, action: #selector(alsoLogin), for: .touchUpInside)
         return button
@@ -92,7 +92,7 @@ class RegViewController: UIViewController {
     
     private lazy var mainButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor.mainColor
+        button.backgroundColor = UIColor(red: 167 / 255, green: 191 / 255, blue: 208 / 255, alpha: 75)
         button.layer.cornerRadius = 25
         button.addTarget(self, action: #selector(registr), for: .touchUpInside)
         return button
@@ -110,7 +110,7 @@ class RegViewController: UIViewController {
         super.viewDidLoad()
         setUp()
         
-        view.backgroundColor = UIColor.backColor
+        view.backgroundColor = UIColor(red: 16 / 255, green: 35 / 255, blue: 48 / 255, alpha: 100)
         
     }
     

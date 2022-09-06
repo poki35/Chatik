@@ -71,6 +71,8 @@ class ChatTabBarController: UITabBarController {
         
         tabBar.tintColor = .tabBarItemAccent
         tabBar.unselectedItemTintColor = .backColor
+        
+        
     }
 }
 
