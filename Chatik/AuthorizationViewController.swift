@@ -18,7 +18,7 @@ class AuthorizationViewController: UIViewController {
     
     private lazy var registrationButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor(red: 167 / 255, green: 191 / 255, blue: 208 / 255, alpha: 75)
+        button.backgroundColor = UIColor.mainColor
         button.layer.cornerRadius = 25
         button.addTarget(self, action: #selector(registr), for: .touchUpInside)
         return button
@@ -26,7 +26,7 @@ class AuthorizationViewController: UIViewController {
     
     private lazy var alsoAcc: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor(red: 167 / 255, green: 191 / 255, blue: 208 / 255, alpha: 0)
+        button.backgroundColor = UIColor.mainColor
         button.layer.cornerRadius = 25
         button.addTarget(self, action: #selector(alsoLog), for: .touchUpInside)
         return button

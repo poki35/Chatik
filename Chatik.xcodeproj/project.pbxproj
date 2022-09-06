@@ -10,6 +10,7 @@
 		A61AF89228C6160900ACEB08 /* ChatTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AF89128C6160900ACEB08 /* ChatTabBarController.swift */; };
 		A61AF89428C6711F00ACEB08 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AF89328C6711F00ACEB08 /* ChatViewController.swift */; };
 		A61AF89628C6829400ACEB08 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AF89528C6829400ACEB08 /* ColorExtension.swift */; };
+		A61AF89A28C794F700ACEB08 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AF89928C794F700ACEB08 /* ChatCollectionViewCell.swift */; };
 		A6DAA9A428C523590089DBB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAA9A328C523590089DBB3 /* AppDelegate.swift */; };
 		A6DAA9A628C523590089DBB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAA9A528C523590089DBB3 /* SceneDelegate.swift */; };
 		A6DAA9A828C523590089DBB3 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAA9A728C523590089DBB3 /* AuthorizationViewController.swift */; };
@@ -24,6 +25,7 @@
 		A61AF89128C6160900ACEB08 /* ChatTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTabBarController.swift; sourceTree = "<group>"; };
 		A61AF89328C6711F00ACEB08 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		A61AF89528C6829400ACEB08 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A61AF89928C794F700ACEB08 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6DAA9A028C523590089DBB3 /* Chatik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DAA9A328C523590089DBB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DAA9A528C523590089DBB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				A61AF89128C6160900ACEB08 /* ChatTabBarController.swift */,
 				A61AF89328C6711F00ACEB08 /* ChatViewController.swift */,
 				A61AF89528C6829400ACEB08 /* ColorExtension.swift */,
+				A61AF89928C794F700ACEB08 /* ChatCollectionViewCell.swift */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				A6DAA9A428C523590089DBB3 /* AppDelegate.swift in Sources */,
 				A61AF89428C6711F00ACEB08 /* ChatViewController.swift in Sources */,
 				A61AF89228C6160900ACEB08 /* ChatTabBarController.swift in Sources */,
+				A61AF89A28C794F700ACEB08 /* ChatCollectionViewCell.swift in Sources */,
 				A6DAA9A628C523590089DBB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
